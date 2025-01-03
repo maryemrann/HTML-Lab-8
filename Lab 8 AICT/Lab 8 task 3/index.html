@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Nested Ordered List</title>
+    <style>
+        ol {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            padding-left: 20px;
+            color: #333;
+        }
+        
+        ol > li {
+            color:  #1a73e8; 
+            font-weight: bold;
+        }
+
+        ol > li > ol > li {
+            color: #34a853 ; 
+            font-weight: normal;
+        }
+
+        ol > li > ol > li > ol > li {
+            color: #ea4335; 
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Styled Nested Ordered List</h1>
+    <ol>
+        <li>Continents
+            <ol>
+                <li>Asia
+                    <ol>
+                        <li>Pakistan</li>
+                        <li>Japan</li>
+                        <li>Russia</li>
+                    </ol>
+                </li>
+                <li>Europe
+                    <ol>
+                        <li>United Kingdom</li>
+                        <li>Germany</li>
+                    </ol>
+                </li>
+                <li>Australia
+                    <ol>
+                        <li>Australia</li>
+                        <li>New Zealand</li>
+                    </ol>
+                </li>
+                <li>Africa
+                    <ol>
+                        <li>Nigeria</li>
+                        <li>Egypt</li>
+                    </ol>
+                </li>
+                <li>South America
+                    <ol>
+                        <li>Argentina</li>
+                        <li>Chile</li>
+                    </ol>
+                </li>
+                <li>North America
+                    <ol>
+                        <li>Mexico</li>
+                        <li>Canada</li>
+                        <li>Antarctica</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Most Developed Countries
+            <ol>
+                <li>United States</li>
+                <li>China</li>
+                <li>Germany</li>
+                <li>Japan</li>
+            </ol>
+        </li>
+        <li>Most Populated Countries
+            <ol>
+                <li>China</li>
+                <li>India</li>
+                <li>USA</li>
+                <li>Indonesia</li>
+            </ol>
+        </li>
+        <li>Most Beautiful Countries
+            <ol>
+                <li>New Zealand</li>
+                <li>Switzerland</li>
+                <li>Norway</li>
+                <li>Pakistan</li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
